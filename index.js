@@ -1,6 +1,6 @@
 // TODO: Include packages needed for this application
 var inquirer = require("inquirer");
-const markdown = require("./utils/generateMarkdown");
+const generate = require("./utils/generateMarkdown.js");
 const fs = require("fs");
 
 // TODO: Create an array of questions for user input
@@ -17,48 +17,19 @@ const questions = {
 };
 
 // TODO: Create a function to write README file
-function writeToFile(response) {
+function writeToFile(fileName, response) {
   const title = `# ${response.title}\n`;
-  const description = `## Descritpion \n ${response.description}\n`;
-  const installation = `## Installation \n ${response.installation}\n`;
-  const usage = `## Usage \n ${response.usage}\n`;
-  const contribute = `## Contributions \n ${response.contribute}\n`;
-  const test = `## Testing \n ${response.test}\n`;
-  const license = `## License \n ${response.license}\n`;
-  const github = `## Contact \n Github: [${response.github}](github.com/${response.github})\n`;
-  const email = `Email Address: [${response.email}](${response.email})\n`;
-  
-  fs.writeFile("README.md", title, (error) => {
+  fs.writeFile(fileName, title, (error) => {
     if (error) {
       console.log(error);
     } else {
-      console.log("success");
+      console.log("title success");
     }
-    fs.appendFile('README.md', description, (err) =>
-        err ? console.error(err) : console.log('description logged!')
-      );
-      fs.appendFile('README.md', installation, (err) =>
-        err ? console.error(err) : console.log('installation logged!')
-      );     
-      fs.appendFile('README.md', usage, (err) =>
-        err ? console.error(err) : console.log('usage logged!')
-    );
-      fs.appendFile('README.md', contribute, (err) =>
-        err ? console.error(err) : console.log('contribution logged!')
-    );
-      fs.appendFile('README.md', test, (err) =>
-        err ? console.error(err) : console.log('test logged!')
-      );
-      fs.appendFile('README.md', license, (err) =>
-        err ? console.error(err) : console.log('license logged!')
-      );
-      fs.appendFile('README.md', github, (err) =>
-        err ? console.error(err) : console.log('github logged!')
-      );
-      fs.appendFile('README.md', email, (err) =>
-        err ? console.error(err) : console.log('email logged!')
-      );
   });
+
+  fs.appendFile(fileName, generate.generateMarkdown(response), (err) =>
+    err ? console.error(err) : console.log("description logged!")
+  );
 }
 
 // TODO: Create a function to initialize app
@@ -141,8 +112,9 @@ function init() {
       //     email: response.email,
       // }
 
+      let fileName = `${response.title}.md`;
       console.log(response);
-      writeToFile(response);
+      writeToFile(fileName, response);
     })
     .catch((error) => {
       if (error.isTtyError) {
