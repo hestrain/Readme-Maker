@@ -14,6 +14,8 @@ const questions = {
   license: "License",
   github: "Github Username",
   email: "Email Address",
+  repo: "Please copy paste the repo URL",
+  deploy: "Please copy paste the URL of the deployed site",
 };
 
 // TODO: Create a function to write README file
@@ -28,7 +30,7 @@ function writeToFile(fileName, response) {
   });
 
   fs.appendFile(fileName, generate.generateMarkdown(response), (err) =>
-    err ? console.error(err) : console.log("description logged!")
+    err ? console.error(err) : console.log("information logged! Please check folder for your new README")
   );
 }
 
@@ -89,29 +91,27 @@ function init() {
         ],
       },
       {
-        type: "input",
-        message: questions.github,
-        name: "github",
-      },
-      {
-        type: "input",
-        message: questions.email,
-        name: "email",
-      },
+          type: "input",
+          message: questions.github,
+          name: "github",
+        },
+        {
+            type: "input",
+            message: questions.email,
+            name: "email",
+        },
+        {
+          type: "input",
+          message: questions.repo,
+          name: "repo",
+        },
+        {
+          type: "input",
+          message: questions.deploy,
+          name: "deploy",
+        },
     ])
     .then((response) => {
-      // const answers = {
-      //     title: response.title,
-      //     description: response.description,
-      //     installation: response.installation,
-      //     usage: response.usage,
-      //     contribute: response.contribute,
-      //     test: response.test,
-      //     license: response.license,
-      //     github: response.github,
-      //     email: response.email,
-      // }
-
       let fileName = `${response.title}.md`;
       console.log(response);
       writeToFile(fileName, response);
