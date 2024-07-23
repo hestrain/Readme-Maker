@@ -59,7 +59,7 @@ git clone https://github.com/hestrain/Readme-Maker.git
    
    Below is a video of the terminal usage. 
 
-  [![Video of terminal usage](/assets/images/readme%20maker%20thumbnail.png)](/assets/images/README%20MAKER.mp4)
+  [![Video of terminal usage](/assets/images/readme%20maker%20thumbnail.png)](https://youtu.be/62o1PFIR1gk)
 
 ## Testing 
 
