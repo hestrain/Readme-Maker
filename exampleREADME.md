@@ -1,7 +1,6 @@
-<h1 style= "text-center"> Cool project title </h1>
+<h1 style= "text-center"> Cool Awesome Project Title </h1>
 
-  [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
-
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Table of Contents
 <ol>
@@ -30,7 +29,7 @@
 
 ## Description 
  
-  a description would be written here for the project
+  a description would go here
  
 
 ### Built With: 
@@ -41,7 +40,7 @@
 
 ## Installation 
  
-   installation instructions would be written here
+   installation instructions would be added here
 
 ## Usage 
 
@@ -51,11 +50,11 @@
 
 
 **Additional Usage Info:** 
-   usage info would go here
+   this would hold usage information
 
 ## Testing 
 
-  test instructions would go here
+  testing info
 
 ## Contributions 
 
@@ -77,14 +76,14 @@ Don't forget to give the project a star! Thanks again!
 
  
  **Additional Contribution Details:** 
-   contirbution guidelines would go here
+   this would be information about contributing to this project
 
 ## License 
  
-  This project is licensed under The Unlicense. For more information please click on the badge below: 
+  This project is licensed under MIT License. For more information please click on the badge below: 
   
  
- [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contact 
  
@@ -94,10 +93,10 @@ Don't forget to give the project a star! Thanks again!
    [hestrain](https://github.com/hestrain)
 
   - Email Address: 
-  [hestrain@gmail.com](hestrain@gmail.com)
+  [hestrain@gmail.com](mailto:hestrain@gmail.com)
 
   ### Project Links: 
 
- - [Github Repository](https://github.com/hestrain/Readme-Maker)
+ - [Github Repository](https://github.com/hestrain/Readme-Maker/tree/main)
 
  - [Deployed Site](https://hestrain.github.io/Readme-Maker/)
