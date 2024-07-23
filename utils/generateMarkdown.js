@@ -217,7 +217,7 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(response) {
   let newMarkdown = `
-  ${renderLicenseBadge(response.license)}\n
+  ${fullLicense}\n
 
   ## Table of Contents
 <ol>

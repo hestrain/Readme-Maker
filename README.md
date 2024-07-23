@@ -1,5 +1,5 @@
-<h1 style= "text-center"> one More Time </h1>
-![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
+<h1 style= "text-center"> README Generator </h1>
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
   ## Table of Contents
@@ -29,7 +29,7 @@
 
 ## Description 
  
-  come on and celebrate
+  This project challenge was for Module 9, Node JS. The challenge was to create a README Generator that someone could use in the terminal to generate a high quality README file.
  
 
 ### Built With: 
@@ -38,28 +38,24 @@
   [![Javascript](https://img.shields.io/badge/Language-JavaScript-ff0000?style=plastic&logo=JavaScript&logoWidth=10)](https://javascript.info/)
   [![Node Current](https://img.shields.io/node/inquirer)](https://www.npmjs.com/package/inquirer)
 
-## Installation 
- 
-   yeah yeah come on lets get to dancing
-
-## Usage 
+## Installation & Usage 
 
 
 1. Clone the rep using the below in your terminal: 
 
 
-git clone google.com.git 
+git clone https://github.com/hestrain/Readme-Maker.git 
 
 
 2. Right click on index.html and open in browser to enjoy locally! 
 
 
 **Additional Usage Info:** 
-   one more time
+   Needs to be downloaded to be be used, and can be used in the terminal using the command "node index.js"
 
 ## Testing 
 
-  i dont
+  It has been tested with many different licenses to ensure the badges are being generated correctly. 
 
 ## Contributions 
 
@@ -81,14 +77,14 @@ Don't forget to give the project a star! Thanks again!
 
  
  **Additional Contribution Details:** 
-   its time to celelbrate
+   
 
 ## License 
  
-  This project is licensed under GNU General Public License v3.0. For more information please click on the badge below: 
+  This project is licensed under MIT License. For more information please click on the badge below: 
   
  
- [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contact 
  
@@ -102,6 +98,6 @@ Don't forget to give the project a star! Thanks again!
 
   ### Project Links: 
 
- - [Github Repository](google.com)
+ - [Github Repository](https://github.com/hestrain/Readme-Maker)
 
- - [Deployed Site](yahoo.ca)
+ - [Deployed Site](https://hestrain.github.io/Readme-Maker/)
