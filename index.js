@@ -2,6 +2,7 @@
 var inquirer = require("inquirer");
 const generate = require("./utils/generateMarkdown.js");
 const fs = require("fs");
+let fileName = "README-generated.md"
 
 // array of questions for user input
 const questions = {
@@ -22,7 +23,7 @@ const questions = {
 function writeToFile(response) {
   const title = `<h1 style= "text-center"> ${response.title} </h1>\n`;
   //creates the file with just the title
-  fs.writeFile("README.md", title, (error) => {
+  fs.writeFile(fileName, title, (error) => {
     //or log an error if not
     if (error) {
       console.log(error);
@@ -31,7 +32,7 @@ function writeToFile(response) {
     }
   });
   //append the file with the rest of the markdown
-  fs.appendFile("README.md", generate.generateMarkdown(response), (err) =>
+  fs.appendFile(fileName, generate.generateMarkdown(response), (err) =>
     //if theres an error log that, otherwise let user know that it work.
     err ? console.error(err) : console.log("information logged! Please check folder for your new README")
   );

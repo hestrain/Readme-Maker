@@ -166,7 +166,7 @@ function renderLicenseSection(license) {
 //a function to generate markdown for README
 function generateMarkdown(response) {
   fullLicense = renderLicenseSection(response.license);
-  let newMarkdown = `
+  let newMarkdown = ` \n\n
   ${fullLicense}\n
 
   ## Table of Contents
