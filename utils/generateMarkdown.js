@@ -160,16 +160,12 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   //puts the badge and link together
    fullLicense = `[${renderLicenseBadge(license)}](${renderLicenseLink(license)})`;
-   
-   console.log(licenseBadge+licenseLink);
-   console.log(fullLicense);
   return fullLicense;
 }
 
 //a function to generate markdown for README
 function generateMarkdown(response) {
   fullLicense = renderLicenseSection(response.license);
-  console.log(fullLicense);
   let newMarkdown = `
   ${fullLicense}\n
 
@@ -239,7 +235,7 @@ Don't forget to give the project a star! Thanks again!\n
   - Github: 
    [${response.github}](https://github.com/${response.github})\n
   - Email Address: 
-  [${response.email}](${response.email})\n
+  [${response.email}](mailto:${response.email})\n
   ### Project Links: \n
  - [Github Repository](${response.repo})\n
  - [Deployed Site](${response.deploy})`;
