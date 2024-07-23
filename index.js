@@ -19,9 +19,9 @@ const questions = {
 };
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, response) {
-  const title = `# ${response.title}\n`;
-  fs.writeFile(fileName, title, (error) => {
+function writeToFile(response) {
+  const title = `<h1 style= "text-center"> ${response.title} </h1>\n`;
+  fs.writeFile("README.md", title, (error) => {
     if (error) {
       console.log(error);
     } else {
@@ -29,7 +29,7 @@ function writeToFile(fileName, response) {
     }
   });
 
-  fs.appendFile(fileName, generate.generateMarkdown(response), (err) =>
+  fs.appendFile("README.md", generate.generateMarkdown(response), (err) =>
     err ? console.error(err) : console.log("information logged! Please check folder for your new README")
   );
 }
@@ -112,9 +112,8 @@ function init() {
         },
     ])
     .then((response) => {
-      let fileName = `${response.title}.md`;
       console.log(response);
-      writeToFile(fileName, response);
+      writeToFile(response);
     })
     .catch((error) => {
       if (error.isTtyError) {
