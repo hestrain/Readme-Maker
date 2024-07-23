@@ -1,5 +1,6 @@
-<h1 style= "text-center"> README Generator </h1>
- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<h1 style= "text-center"> Cool project title </h1>
+
+  [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
 
   ## Table of Contents
@@ -29,7 +30,7 @@
 
 ## Description 
  
-  This project challenge was for Module 9, Node JS. The challenge was to create a README Generator that someone could use in the terminal to generate a high quality README file.
+  a description would be written here for the project
  
 
 ### Built With: 
@@ -38,24 +39,23 @@
   [![Javascript](https://img.shields.io/badge/Language-JavaScript-ff0000?style=plastic&logo=JavaScript&logoWidth=10)](https://javascript.info/)
   [![Node Current](https://img.shields.io/node/inquirer)](https://www.npmjs.com/package/inquirer)
 
-## Installation & Usage 
+## Installation 
+ 
+   installation instructions would be written here
+
+## Usage 
 
 
-1. Clone the rep using the below in your terminal: 
-
-
-git clone https://github.com/hestrain/Readme-Maker.git 
-
-
-2. Right click on index.html and open in browser to enjoy locally! 
+1. Clone the repo from github (link in the contact section) 
+2. Run "node index.js" in the terminal
 
 
 **Additional Usage Info:** 
-   Needs to be downloaded to be be used, and can be used in the terminal using the command "node index.js"
+   usage info would go here
 
 ## Testing 
 
-  It has been tested with many different licenses to ensure the badges are being generated correctly. 
+  test instructions would go here
 
 ## Contributions 
 
@@ -77,14 +77,14 @@ Don't forget to give the project a star! Thanks again!
 
  
  **Additional Contribution Details:** 
-   
+   contirbution guidelines would go here
 
 ## License 
  
-  This project is licensed under MIT License. For more information please click on the badge below: 
+  This project is licensed under The Unlicense. For more information please click on the badge below: 
   
  
- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+ [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
 ## Contact 
  

@@ -1,9 +1,9 @@
-// TODO: Include packages needed for this application
+// packages needed for this application
 var inquirer = require("inquirer");
 const generate = require("./utils/generateMarkdown.js");
 const fs = require("fs");
 
-// TODO: Create an array of questions for user input
+// array of questions for user input
 const questions = {
   title: "Project Title",
   description: "Description of Project",
@@ -18,27 +18,30 @@ const questions = {
   deploy: "Please copy paste the URL of the deployed site",
 };
 
-// TODO: Create a function to write README file
+//function to write README file
 function writeToFile(response) {
   const title = `<h1 style= "text-center"> ${response.title} </h1>\n`;
+  //creates the file with just the title
   fs.writeFile("README.md", title, (error) => {
+    //or log an error if not
     if (error) {
       console.log(error);
     } else {
       console.log("title success");
     }
   });
-
+  //append the file with the rest of the markdown
   fs.appendFile("README.md", generate.generateMarkdown(response), (err) =>
+    //if theres an error log that, otherwise let user know that it work.
     err ? console.error(err) : console.log("information logged! Please check folder for your new README")
   );
 }
 
-// TODO: Create a function to initialize app
+// function to initialize app
 function init() {
   inquirer
     .prompt([
-      /* Pass your questions in here */
+      //all the questions are below
       {
         type: "input",
         message: questions.title,
