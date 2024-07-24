@@ -1,6 +1,9 @@
-<h1 style= "text-center"> Cool Awesome Project Title </h1>
+<h1 style= "text-center"> Logo Generator </h1>
+ 
 
- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
   ## Table of Contents
 <ol>
@@ -29,18 +32,18 @@
 
 ## Description 
  
-  a description would go here
+  This application created a logo containing up to 3 chatacters with a shape, text color and shape color of your choide. this logo is saved as a SVG file
  
 
 ### Built With: 
 
   [![VS Code](https://img.shields.io/badge/IDE-VSCode-0000ff?style=plastic&logo=VisualStudioCode&logoWidth=10)](https://code.visualstudio.com/docs)
   [![Javascript](https://img.shields.io/badge/Language-JavaScript-ff0000?style=plastic&logo=JavaScript&logoWidth=10)](https://javascript.info/)
-
+  [![Node Current](https://img.shields.io/node/inquirer)](https://www.npmjs.com/package/inquirer)
 
 ## Installation 
  
-   installation instructions would be added here
+   needs to be run in terminal 
 
 ## Usage 
 
@@ -50,11 +53,11 @@
 
 
 **Additional Usage Info:** 
-   this would hold usage information
+   see above
 
 ## Testing 
 
-  testing info
+  i dont know how to write this but yet: TO ADD LATER
 
 ## Contributions 
 
@@ -76,7 +79,7 @@ Don't forget to give the project a star! Thanks again!
 
  
  **Additional Contribution Details:** 
-   this would be information about contributing to this project
+   idk
 
 ## License 
  
@@ -97,6 +100,6 @@ Don't forget to give the project a star! Thanks again!
 
   ### Project Links: 
 
- - [Github Repository](https://github.com/hestrain/Readme-Maker/tree/main)
+ - [Github Repository](https://github.com/hestrain/Logo-Generator)
 
- - [Deployed Site](https://hestrain.github.io/Readme-Maker/)
+ - [Deployed Site](add later)

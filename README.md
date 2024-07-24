@@ -37,7 +37,6 @@
 
   [![VS Code](https://img.shields.io/badge/IDE-VSCode-0000ff?style=plastic&logo=VisualStudioCode&logoWidth=10)](https://code.visualstudio.com/docs)
   [![Javascript](https://img.shields.io/badge/Language-JavaScript-ff0000?style=plastic&logo=JavaScript&logoWidth=10)](https://javascript.info/)
-  [![Node Current](https://img.shields.io/node/inquirer)](https://www.npmjs.com/package/inquirer)
 
 ## Installation & Usage 
 
